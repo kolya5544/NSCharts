@@ -7,7 +7,7 @@ NationStates Statistics and Animated Chart Race software developed by [The Empir
 
 ## Usage (tutorial)
 ### Installation
-Make sure you have .NET Core 5.0 installed (https://dotnet.microsoft.com/download/dotnet/5.0). Download the latest release from [Releases tab](https://github.com/kolya5544/NSCharts/releases) and execute NSCharts.exe file.
+Make sure you have .NET Framework 4.7.2 installed (https://dotnet.microsoft.com/download/dotnet-framework/net472). Download the latest release from [Releases tab](https://github.com/kolya5544/NSCharts/releases) and execute NSCharts.exe file.
 ### Configuration
 Once you execute the application, you'll see a Windows application GUI. Use properties dropbox to choose the property (census) that will be used to build the chart on. If you want to specify a custom date range, check the "Custom datetime" checkbox and choose your range. Otherwise, the program will use all available records of a nation. Press "Confirm". Now, add nations using "Country to add" textbox, one by one. If you've added a wrong country, doubleclick on its name in the listbox to remove it. Once you are done, press "Export" and save the file somewhere.
 ### Creating a chart race
