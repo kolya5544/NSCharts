@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net472</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 
@@ -11,13 +11,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="dotNS" Version="0.2.0" />
     <PackageReference Include="NPOI" Version="2.5.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="dotNS">
-      <HintPath>..\dotNS\bin\Debug\net5.0\dotNS.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>
